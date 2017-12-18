@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Alphabet français</string>
+    <string name="menuStartPage">Page de démarrage</string>
+    <string name="menuAlphabet">Écoute l`alphabet</string>
+    <string name="menuLesson">Leçons</string>
+    <string name="startUsing">Commencer la première leçon</string>
+</resources>
