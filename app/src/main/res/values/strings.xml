@@ -1,7 +1,9 @@
 <resources>
-    <string name="app_name">Alphabet français</string>
+    <string name="app_name">Sting</string>
     <string name="menuStartPage">Page de démarrage</string>
-    <string name="menuAlphabet">Écoute l`alphabet</string>
-    <string name="menuLesson">Leçons</string>
-    <string name="startUsing">Commencer la première leçon</string>
+    <string name="album1">Sacred Love</string>
+    <string name="album2">Best of 25 years</string>
+    <string name="album3">Brand new day</string>
+    <string name="allAlbum">Все доступные альбомы</string>
+    <string name="startUsing">Послушаем стинга?</string>
 </resources>

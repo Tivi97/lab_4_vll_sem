@@ -17,12 +17,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".ActivityAlfabet"
-                  android:label="@string/menuAlphabet">
+        <activity android:name=".ActivityPlayer">
+
         </activity>
 
-        <activity android:name=".ActivityLesson"
-                  android:label="@string/menuLesson">
+        <activity android:name=".ActivityList">
+
+
         </activity>
 
     </application>

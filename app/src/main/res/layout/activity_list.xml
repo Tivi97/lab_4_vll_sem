@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.example.algoritm.lab_4_vll_sem.ActivityList">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/allAlbum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/allAlbum"
+            android:textColor="@color/white"
+            android:textSize="22sp"/>
+
+
+        <ImageView
+            android:id="@+id/imageSLA"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:background="@drawable/secret_love"
+            android:onClick="openActivityPlayer"/>
+        <TextView
+            android:id="@+id/textSLA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/album1"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:id="@+id/imageB25"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:background="@drawable/the_best"
+            android:onClick="openActivityPlayer"/>
+        <TextView
+            android:id="@+id/textB25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/album2"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:id="@+id/imageBND"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:background="@drawable/brand_new_day"
+            android:onClick="openActivityPlayer"/>
+        <TextView
+            android:id="@+id/textBND"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/album3"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
+
+
