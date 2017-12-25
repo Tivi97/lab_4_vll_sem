@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context="com.example.algoritm.lab_4_vll_sem.ActivityList">
+    tools:context="com.example.algoritm.lab_4_vll_sem.ActivityAlbum">
 
     <LinearLayout
         android:layout_width="match_parent"

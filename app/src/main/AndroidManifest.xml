@@ -21,7 +21,7 @@
 
         </activity>
 
-        <activity android:name=".ActivityList">
+        <activity android:name=".ActivityAlbum">
 
 
         </activity>

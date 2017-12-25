@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void openActivityAlf(View view){
 
-        Intent ALintent = new Intent(MainActivity.this, ActivityList.class);
+        Intent ALintent = new Intent(MainActivity.this, ActivityAlbum.class);
         startActivity(ALintent);
 
     }
