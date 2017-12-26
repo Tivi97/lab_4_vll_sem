@@ -12,22 +12,28 @@
         android:layout_height="wrap_content">
 
         <LinearLayout
-            android:layout_width="265dip"
+            android:layout_width="wrap_content"
             android:orientation="horizontal"
             android:layout_height="wrap_content">
 
-            <TextView android:layout_width="wrap_content"
+            <ImageView
+                android:id="@+id/imagePlayOrStop"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="playSong"
+                android:src="@drawable/play"/>
+
+
+            <TextView android:layout_width="match_parent"
                       android:layout_height="wrap_content"
                       android:id="@+id/text1"
                       android:textSize="25sp"
-                      android:text="aaaaaaaaaa"
                       android:textColor="@color/white"
+                      android:layout_marginEnd="55dp"
+
                       />
 
-            <ImageView
-                android:id="@+id/imagePlayOrStop"
-                android:layout_width="40dp"
-                android:layout_height="40dp"/>
+
 
         </LinearLayout>
     </LinearLayout>

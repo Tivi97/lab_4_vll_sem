@@ -25,14 +25,7 @@ public class ActivityAlbum extends AppCompatActivity{
 
 
     public void openActivityPlayer(View view){
-
-        Intent intent1 = new Intent(ActivityAlbum.this, ActivityPlayer.class);
-        startActivity(intent1);
-
-          }
-
-    public void mess(View view){
-       /* switch (view.getId()){
+        switch (view.getId()){
             case R.id.imageBND: albumNumber="3";
                 break;
             case R.id.imageB25: albumNumber="2";
@@ -41,8 +34,8 @@ public class ActivityAlbum extends AppCompatActivity{
                 break;
         }
         Intent constructor = new Intent(ActivityAlbum.this, ActivityPlayer.class);
-        constructor.putExtra(ActivityPlayer.NUMBER_OF_ALBUM, albumNumber);
-        startActivity(constructor);*/
+        constructor.putExtra(ActivityPlayer.NUMBER_OF_ALBUM, albumNumber.toString());
+        startActivity(constructor);
 
         Intent intent1 = new Intent(ActivityAlbum.this, ActivityPlayer.class);
         startActivity(intent1);

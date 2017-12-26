@@ -29,7 +29,7 @@
             android:layout_width="250dp"
             android:layout_height="250dp"
             android:background="@drawable/secret_love"
-            android:onClick="mess"/>
+            android:onClick="openActivityPlayer"/>
         <TextView
             android:id="@+id/textSLA"
             android:layout_width="wrap_content"
@@ -42,7 +42,7 @@
             android:layout_width="250dp"
             android:layout_height="250dp"
             android:background="@drawable/the_best"
-            android:onClick="mess"/>
+            android:onClick="openActivityPlayer"/>
         <TextView
             android:id="@+id/textB25"
             android:layout_width="wrap_content"
@@ -55,7 +55,7 @@
             android:layout_width="250dp"
             android:layout_height="250dp"
             android:background="@drawable/brand_new_day"
-            android:onClick="mess"/>
+            android:onClick="openActivityPlayer"/>
         <TextView
             android:id="@+id/textBND"
             android:layout_width="wrap_content"
